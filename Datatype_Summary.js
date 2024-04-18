@@ -29,6 +29,7 @@ console.log(id == another_id)
  
 // Array, 
 
+/*
 const Heroes = ["Aquaman","Batman","Superman"]; // Array 
 
 //  Objects, 
@@ -37,14 +38,24 @@ let details= {
     name : " Ashish",
     age : 24,
     class : "Sec A",
-    branch : "Ece",
+    branch : "Ece",  
     roll : 41,
 }
 
 // Functions
-
+ 
 const myFunction= function(){
     console.log("Hello World");
 }
 
-console.log(typeof details)
+*/
+
+// console.log(typeof details)
+// primtive ---Stack 
+// non-primitive ===Heap
+
+let myNameis = "Ashish "
+let another_name  = "chinnu" 
+another_name = " king "
+ 
+console.log(myNameis,another_name);
